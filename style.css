@@ -1,0 +1,59 @@
+body{
+    background: rgb(245, 245, 245);
+}
+
+h1{
+    color: red;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h3{
+    color: pink;
+    font-size: lighter;
+}
+
+p{
+    font-size: 13px;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+/* References the div with id "banner" */
+#banner{
+    background-image: url("https://i.imgur.com/4ePe8qK.jpg");
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 50%;
+    /* How much padding on the top and bottom, but little on the sides */
+    padding: 200px 0;
+    /* Puts the banner (my name) into the center */
+    text-align: center;
+}
+
+/* Selects all the "h1" in "banner" */
+#banner h1{
+    color: white;
+}
+
+#banner p{
+    color: white;
+    font-size: 20px;
+}
+
+/* the # references id */
+#cards{
+    padding: 50px;
+    text-align: center;
+
+}
+
+/* the . refernces class */
+.cards{
+    padding: 50px;
+    text-align: center;
+
+}
